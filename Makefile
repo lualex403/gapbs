@@ -1,6 +1,7 @@
 # See LICENSE.txt for license details.
 
-CXX_FLAGS += -std=c++11 -O1 -Wall -m32 -static -no-pie -g -ffreestanding 
+# CXX_FLAGS += -std=c++11 -O1 -Wall -m32 -static -no-pie -g -ffreestanding 
+CXX_FLAGS = -std=c++11 -static -no-pie -g -ffreestanding  -m32 -g -O1 -Wall
 # PAR_FLAG = -fopenmp
 
 # ifneq (,$(findstring icpc,$(CXX)))
